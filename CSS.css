@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red ;*/
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+    padding-bottom: 3px;
+
+}
+.header__logo    {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 12%;
+    display: inline-block;
+}
+nav{
+    margin-top: 10px;
+    margin-left: 30%;
+    /*margin-right: 130px;*/
+}
+.topnav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;}
+.topnav .icon{
+    display: none;
+}
+
+
+.gl {
+    background: url("img'/community_image_1425152487.png") no-repeat top / cover ;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 0 0 350px ;
+}
+
+.gl input{
+    width: 250px;
+    height: 80px;
+    background: black;
+    color: white;
+    border: 1px solid red;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+
+
+
+}
+.button input:hover {
+    opacity: 0.9;
+}
+.fin{
+    background: white;
+    width: 1200px;
+    margin: auto;
+
+}
+.vk img {
+    margin-left: 50%;
+
+}
+.vk a:hover {
+
+    opacity: 0.6;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    nav{
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 1105px) {
+    nav{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1010px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive{
+        height: 340px;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }}
